@@ -1,0 +1,31 @@
+.inputCss{
+	width:80% !important;
+	padding-left: 30% !important;
+}
+
+.btnClass{
+	width: 55% !important;
+	padding-left: 30% !important;
+	
+}
+
+.newForm{
+	width: 70% !important;
+	padding-left: 30% !important;
+	padding-top: 5% !important;
+	
+}
+
+.vBoxForm{
+	padding-left: 10%;
+	padding-right: 15%
+}
+
+@media screen and (max-width:600px){
+	.vBoxForm{
+	padding-left: 5%;
+	padding-right: 5%
+}
+
+
+}
