@@ -17,8 +17,7 @@ sap.ui.jsview("courseproject.homepage", {
 			icon: "{icon}",
 			title: "{Subject}",
 			info: "{Type}"
-		})
-
+		});
 
 
 		var oTileCont = new sap.m.TileContainer({

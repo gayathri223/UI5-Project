@@ -1,31 +1,44 @@
-.inputCss{
-	width:80% !important;
-	padding-left: 30% !important;
-}
+.inputCss {
+	width: 100%;
+	border: none;
 
-.btnClass{
-	width: 55% !important;
-	padding-left: 30% !important;
 	
 }
 
-.newForm{
+.myCustomTile {
+	width: 23.5rem;
+	height: 11rem;
+	border: 1px solid #dddddd;
+	border-radius: 2px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+	background-color: #ffffff;
+	margin: 0.5rem;
+}
+
+.linkCss {
+	padding-left: 40%;
+}
+.container{
+	padding: 10px;
+}
+.btnClass {
+	flex: 1;
+}
+
+.newForm {
 	width: 70% !important;
 	padding-left: 30% !important;
 	padding-top: 5% !important;
-	
 }
 
-.vBoxForm{
+.vBoxForm {
 	padding-left: 10%;
 	padding-right: 15%
 }
 
-@media screen and (max-width:600px){
-	.vBoxForm{
-	padding-left: 5%;
-	padding-right: 5%
-}
-
-
+@media screen and (max-width:600px) {
+	.vBoxForm {
+		padding-left: 0%;
+		padding-right: 15%
+	}
 }
